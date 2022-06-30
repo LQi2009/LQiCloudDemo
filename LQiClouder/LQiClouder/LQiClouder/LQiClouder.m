@@ -1,15 +1,13 @@
 //
-//  LZiCloudDocument.m
-//  LZiCloudDemo
+//  LQiClouder.m
+//  LQiClouder
 //
-//  Created by Artron_LQQ on 2016/12/2.
-//  Copyright © 2016年 Artup. All rights reserved.
+//  Created by NewTV on 2022/6/30.
 //
 
-#import "LZiCloudDocument.h"
-#import "LZDocument.h"
+#import "LQiClouder.h"
 
-@implementation LZiCloudDocument
+@implementation LQiClouder
 
 + (BOOL)iCloudEnable {
     
@@ -65,8 +63,8 @@
     NSURL *iCloudUrl = [self iCloudFilePathByName:name];
     NSURL *localUrl = [self localFileUrl:localFile];
     
-    LZDocument *localDoc = [[LZDocument alloc]initWithFileURL:localUrl];
-    LZDocument *iCloudDoc = [[LZDocument alloc]initWithFileURL:iCloudUrl];
+    LQDocument *localDoc = [[LQDocument alloc]initWithFileURL:localUrl];
+    LQDocument *iCloudDoc = [[LQDocument alloc]initWithFileURL:iCloudUrl];
     
     [localDoc openWithCompletionHandler:^(BOOL success) {
         if (success) {
@@ -92,8 +90,8 @@
     NSURL *iCloudUrl = [self iCloudFilePathByName:name];
     NSURL *localUrl = [self localFileUrl:localFile];
     
-    LZDocument *localDoc = [[LZDocument alloc]initWithFileURL:localUrl];
-    LZDocument *iCloudDoc = [[LZDocument alloc]initWithFileURL:iCloudUrl];
+    LQDocument *localDoc = [[LQDocument alloc]initWithFileURL:localUrl];
+    LQDocument *iCloudDoc = [[LQDocument alloc]initWithFileURL:iCloudUrl];
     
     [iCloudDoc openWithCompletionHandler:^(BOOL success) {
         if (success) {
@@ -111,5 +109,51 @@
             }];
         }
     }];
+}
+@end
+
+static NSString *fileName = @"userData.db";
+@implementation LQDocument
+
+// 将要保存的数据转换为NSData
+// 用于保存文件时提供给 UIDocument 要保存的数据，
+- (id)contentsForType:(NSString *)typeName error:(NSError * _Nullable __autoreleasing *)outError {
+    
+    NSLog(@"typeName == %@", typeName);
+    
+    if (self.wrapper == nil) {
+        self.wrapper =[[NSFileWrapper alloc]initDirectoryWithFileWrappers:@{}];
+    }
+    
+    NSDictionary *wrappers = [self.wrapper fileWrappers];
+    
+    if ([wrappers objectForKey:fileName] == nil && self.data != nil) {
+        
+        NSFileWrapper *textWrap = [[NSFileWrapper alloc]initRegularFileWithContents:self.data];
+        [textWrap setPreferredFilename:fileName];
+        [self.wrapper addFileWrapper:textWrap];
+    }
+    
+    return self.wrapper;
+}
+
+// 获取已保存数据
+// 用于 UIDocument 成功打开文件后，我们将数据解析成我们需要的文件内容，然后再保存起来
+- (BOOL)loadFromContents:(id)contents ofType:(NSString *)typeName error:(NSError * _Nullable __autoreleasing *)outError {
+    
+    // 这个NSFileWrapper对象是a parent
+    self.wrapper = (NSFileWrapper*)contents;
+    
+    NSDictionary *fileWrappers = self.wrapper.fileWrappers;
+    // 获取child fileWrapper 这里才能获取到我们保存的内容
+    NSFileWrapper *textWrap = [fileWrappers objectForKey:fileName];
+    
+    // 获取保存的内容
+    if (textWrap.regularFile) {
+        
+        self.data = textWrap.regularFileContents;
+    }
+
+    return YES;
 }
 @end

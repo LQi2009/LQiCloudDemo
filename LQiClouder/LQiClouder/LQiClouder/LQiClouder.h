@@ -1,18 +1,27 @@
 //
-//  LZiCloudDocument.h
-//  LZiCloudDemo
+//  LQiClouder.h
+//  LQiClouder
 //
-//  Created by Artron_LQQ on 2016/12/2.
-//  Copyright © 2016年 Artup. All rights reserved.
+//  Created by NewTV on 2022/6/30.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface LQDocument : UIDocument
+
+@property (nonatomic, strong) NSData *data;
+@property (nonatomic, strong) NSFileWrapper *wrapper;
+@end
 
 typedef void(^loadBlock)(BOOL success);
 
 typedef void(^downloadBlock)(id obj);
 
-@interface LZiCloudDocument : NSObject
+@interface LQiClouder : NSObject
 
 + (BOOL)iCloudEnable;
 + (NSURL *)iCloudFilePathByName:(NSString *)name;
@@ -22,3 +31,5 @@ typedef void(^downloadBlock)(id obj);
 
 + (void)downloadFromiCloud:(NSString*)name localfile:(NSString*)localFile callBack:(downloadBlock)block ;
 @end
+
+NS_ASSUME_NONNULL_END

@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3937BF286D41AE007CE006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937BE286D41AE007CE006 /* AppDelegate.m */; };
+		0D3937C2286D41AE007CE006 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937C1286D41AE007CE006 /* SceneDelegate.m */; };
+		0D3937C5286D41AE007CE006 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937C4286D41AE007CE006 /* ViewController.m */; };
+		0D3937C8286D41AE007CE006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3937C6286D41AE007CE006 /* Main.storyboard */; };
+		0D3937CA286D41B0007CE006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3937C9286D41B0007CE006 /* Assets.xcassets */; };
+		0D3937CD286D41B0007CE006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3937CB286D41B0007CE006 /* LaunchScreen.storyboard */; };
+		0D3937D0286D41B0007CE006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937CF286D41B0007CE006 /* main.m */; };
+		0D3937DA286D41B0007CE006 /* LQiClouderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937D9286D41B0007CE006 /* LQiClouderTests.m */; };
+		0D3937E4286D41B0007CE006 /* LQiClouderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937E3286D41B0007CE006 /* LQiClouderUITests.m */; };
+		0D3937E6286D41B0007CE006 /* LQiClouderUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937E5286D41B0007CE006 /* LQiClouderUITestsLaunchTests.m */; };
+		0D3937F5286D41C5007CE006 /* LQiClouder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937F4286D41C5007CE006 /* LQiClouder.m */; };
+		0D3937F8286D445C007CE006 /* LQiCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3937F7286D445C007CE006 /* LQiCloudManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D3937D6286D41B0007CE006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D3937B2286D41AE007CE006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3937B9286D41AE007CE006;
+			remoteInfo = LQiClouder;
+		};
+		0D3937E0286D41B0007CE006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D3937B2286D41AE007CE006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3937B9286D41AE007CE006;
+			remoteInfo = LQiClouder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3937BA286D41AE007CE006 /* LQiClouder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQiClouder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3937BD286D41AE007CE006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D3937BE286D41AE007CE006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D3937C0286D41AE007CE006 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0D3937C1286D41AE007CE006 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0D3937C3286D41AE007CE006 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D3937C4286D41AE007CE006 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D3937C7286D41AE007CE006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D3937C9286D41B0007CE006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D3937CC286D41B0007CE006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D3937CE286D41B0007CE006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D3937CF286D41B0007CE006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D3937D5286D41B0007CE006 /* LQiClouderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQiClouderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3937D9286D41B0007CE006 /* LQiClouderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQiClouderTests.m; sourceTree = "<group>"; };
+		0D3937DF286D41B0007CE006 /* LQiClouderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQiClouderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3937E3286D41B0007CE006 /* LQiClouderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQiClouderUITests.m; sourceTree = "<group>"; };
+		0D3937E5286D41B0007CE006 /* LQiClouderUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQiClouderUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0D3937F3286D41C5007CE006 /* LQiClouder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQiClouder.h; sourceTree = "<group>"; };
+		0D3937F4286D41C5007CE006 /* LQiClouder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQiClouder.m; sourceTree = "<group>"; };
+		0D3937F6286D445C007CE006 /* LQiCloudManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQiCloudManager.h; sourceTree = "<group>"; };
+		0D3937F7286D445C007CE006 /* LQiCloudManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQiCloudManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D3937B7286D41AE007CE006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3937D2286D41B0007CE006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3937DC286D41B0007CE006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D3937B1286D41AE007CE006 = {
+			isa = PBXGroup;
+			children = (
+				0D3937BC286D41AE007CE006 /* LQiClouder */,
+				0D3937D8286D41B0007CE006 /* LQiClouderTests */,
+				0D3937E2286D41B0007CE006 /* LQiClouderUITests */,
+				0D3937BB286D41AE007CE006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D3937BB286D41AE007CE006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D3937BA286D41AE007CE006 /* LQiClouder.app */,
+				0D3937D5286D41B0007CE006 /* LQiClouderTests.xctest */,
+				0D3937DF286D41B0007CE006 /* LQiClouderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D3937BC286D41AE007CE006 /* LQiClouder */ = {
+			isa = PBXGroup;
+			children = (
+				0D3937F2286D41B7007CE006 /* LQiClouder */,
+				0D3937BD286D41AE007CE006 /* AppDelegate.h */,
+				0D3937BE286D41AE007CE006 /* AppDelegate.m */,
+				0D3937C0286D41AE007CE006 /* SceneDelegate.h */,
+				0D3937C1286D41AE007CE006 /* SceneDelegate.m */,
+				0D3937C3286D41AE007CE006 /* ViewController.h */,
+				0D3937C4286D41AE007CE006 /* ViewController.m */,
+				0D3937C6286D41AE007CE006 /* Main.storyboard */,
+				0D3937C9286D41B0007CE006 /* Assets.xcassets */,
+				0D3937CB286D41B0007CE006 /* LaunchScreen.storyboard */,
+				0D3937CE286D41B0007CE006 /* Info.plist */,
+				0D3937CF286D41B0007CE006 /* main.m */,
+			);
+			path = LQiClouder;
+			sourceTree = "<group>";
+		};
+		0D3937D8286D41B0007CE006 /* LQiClouderTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D3937D9286D41B0007CE006 /* LQiClouderTests.m */,
+			);
+			path = LQiClouderTests;
+			sourceTree = "<group>";
+		};
+		0D3937E2286D41B0007CE006 /* LQiClouderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D3937E3286D41B0007CE006 /* LQiClouderUITests.m */,
+				0D3937E5286D41B0007CE006 /* LQiClouderUITestsLaunchTests.m */,
+			);
+			path = LQiClouderUITests;
+			sourceTree = "<group>";
+		};
+		0D3937F2286D41B7007CE006 /* LQiClouder */ = {
+			isa = PBXGroup;
+			children = (
+				0D3937F3286D41C5007CE006 /* LQiClouder.h */,
+				0D3937F4286D41C5007CE006 /* LQiClouder.m */,
+				0D3937F6286D445C007CE006 /* LQiCloudManager.h */,
+				0D3937F7286D445C007CE006 /* LQiCloudManager.m */,
+			);
+			path = LQiClouder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D3937B9286D41AE007CE006 /* LQiClouder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3937E9286D41B0007CE006 /* Build configuration list for PBXNativeTarget "LQiClouder" */;
+			buildPhases = (
+				0D3937B6286D41AE007CE006 /* Sources */,
+				0D3937B7286D41AE007CE006 /* Frameworks */,
+				0D3937B8286D41AE007CE006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQiClouder;
+			productName = LQiClouder;
+			productReference = 0D3937BA286D41AE007CE006 /* LQiClouder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D3937D4286D41B0007CE006 /* LQiClouderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3937EC286D41B0007CE006 /* Build configuration list for PBXNativeTarget "LQiClouderTests" */;
+			buildPhases = (
+				0D3937D1286D41B0007CE006 /* Sources */,
+				0D3937D2286D41B0007CE006 /* Frameworks */,
+				0D3937D3286D41B0007CE006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3937D7286D41B0007CE006 /* PBXTargetDependency */,
+			);
+			name = LQiClouderTests;
+			productName = LQiClouderTests;
+			productReference = 0D3937D5286D41B0007CE006 /* LQiClouderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D3937DE286D41B0007CE006 /* LQiClouderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3937EF286D41B0007CE006 /* Build configuration list for PBXNativeTarget "LQiClouderUITests" */;
+			buildPhases = (
+				0D3937DB286D41B0007CE006 /* Sources */,
+				0D3937DC286D41B0007CE006 /* Frameworks */,
+				0D3937DD286D41B0007CE006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3937E1286D41B0007CE006 /* PBXTargetDependency */,
+			);
+			name = LQiClouderUITests;
+			productName = LQiClouderUITests;
+			productReference = 0D3937DF286D41B0007CE006 /* LQiClouderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D3937B2286D41AE007CE006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0D3937B9286D41AE007CE006 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					0D3937D4286D41B0007CE006 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0D3937B9286D41AE007CE006;
+					};
+					0D3937DE286D41B0007CE006 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0D3937B9286D41AE007CE006;
+					};
+				};
+			};
+			buildConfigurationList = 0D3937B5286D41AE007CE006 /* Build configuration list for PBXProject "LQiClouder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D3937B1286D41AE007CE006;
+			productRefGroup = 0D3937BB286D41AE007CE006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D3937B9286D41AE007CE006 /* LQiClouder */,
+				0D3937D4286D41B0007CE006 /* LQiClouderTests */,
+				0D3937DE286D41B0007CE006 /* LQiClouderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D3937B8286D41AE007CE006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3937CD286D41B0007CE006 /* LaunchScreen.storyboard in Resources */,
+				0D3937CA286D41B0007CE006 /* Assets.xcassets in Resources */,
+				0D3937C8286D41AE007CE006 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3937D3286D41B0007CE006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3937DD286D41B0007CE006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D3937B6286D41AE007CE006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3937C5286D41AE007CE006 /* ViewController.m in Sources */,
+				0D3937BF286D41AE007CE006 /* AppDelegate.m in Sources */,
+				0D3937F8286D445C007CE006 /* LQiCloudManager.m in Sources */,
+				0D3937D0286D41B0007CE006 /* main.m in Sources */,
+				0D3937C2286D41AE007CE006 /* SceneDelegate.m in Sources */,
+				0D3937F5286D41C5007CE006 /* LQiClouder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3937D1286D41B0007CE006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3937DA286D41B0007CE006 /* LQiClouderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D3937DB286D41B0007CE006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3937E6286D41B0007CE006 /* LQiClouderUITestsLaunchTests.m in Sources */,
+				0D3937E4286D41B0007CE006 /* LQiClouderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D3937D7286D41B0007CE006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D3937B9286D41AE007CE006 /* LQiClouder */;
+			targetProxy = 0D3937D6286D41B0007CE006 /* PBXContainerItemProxy */;
+		};
+		0D3937E1286D41B0007CE006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D3937B9286D41AE007CE006 /* LQiClouder */;
+			targetProxy = 0D3937E0286D41B0007CE006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D3937C6286D41AE007CE006 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D3937C7286D41AE007CE006 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D3937CB286D41B0007CE006 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D3937CC286D41B0007CE006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D3937E7286D41B0007CE006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D3937E8286D41B0007CE006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D3937EA286D41B0007CE006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LQiClouder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.LQiClouder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D3937EB286D41B0007CE006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LQiClouder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.LQiClouder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D3937ED286D41B0007CE006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.LQiClouderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQiClouder.app/LQiClouder";
+			};
+			name = Debug;
+		};
+		0D3937EE286D41B0007CE006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.LQiClouderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQiClouder.app/LQiClouder";
+			};
+			name = Release;
+		};
+		0D3937F0286D41B0007CE006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.LQiClouderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQiClouder;
+			};
+			name = Debug;
+		};
+		0D3937F1286D41B0007CE006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cctv.LQiClouderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQiClouder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D3937B5286D41AE007CE006 /* Build configuration list for PBXProject "LQiClouder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3937E7286D41B0007CE006 /* Debug */,
+				0D3937E8286D41B0007CE006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3937E9286D41B0007CE006 /* Build configuration list for PBXNativeTarget "LQiClouder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3937EA286D41B0007CE006 /* Debug */,
+				0D3937EB286D41B0007CE006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3937EC286D41B0007CE006 /* Build configuration list for PBXNativeTarget "LQiClouderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3937ED286D41B0007CE006 /* Debug */,
+				0D3937EE286D41B0007CE006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D3937EF286D41B0007CE006 /* Build configuration list for PBXNativeTarget "LQiClouderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3937F0286D41B0007CE006 /* Debug */,
+				0D3937F1286D41B0007CE006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D3937B2286D41AE007CE006 /* Project object */;
+}
